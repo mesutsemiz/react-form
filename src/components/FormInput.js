@@ -9,6 +9,7 @@ const FormInput = (props) => {
   };
 
   const { label, onChange, id, errorMessage, ...inputProps } = props;
+  console.log(props)
   return (
     <div className="formInput">
       <label>{label} </label>
